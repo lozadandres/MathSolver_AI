@@ -2,6 +2,8 @@
 
 MathSolver AI es una aplicación web interactiva que funciona como asistente matemático personal. Mediante inteligencia artificial, proporciona soluciones y explicaciones detalladas para diversos problemas matemáticos, desde aritmética básica hasta cálculo complejo.
 
+<img src="https://github.com/lozadandres/Gesti-n-de-Eventos/blob/main/Captura.png" width="100%" height="500" alt="App"/>
+
 ## Características
 
 - Interfaz de chat interactiva para consultas matemáticas
