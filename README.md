@@ -1,24 +1,24 @@
-# MathSolver AI - Mathematical Assistant
+# MathSolver AI - Asistente matemático
 
-MathSolver AI is an interactive web application that serves as your personal mathematical assistant. Using artificial intelligence, it provides detailed solutions and explanations for various mathematical problems, from basic arithmetic to complex calculus.
+MathSolver AI es una aplicación web interactiva que funciona como asistente matemático personal. Mediante inteligencia artificial, proporciona soluciones y explicaciones detalladas para diversos problemas matemáticos, desde aritmética básica hasta cálculo complejo.
 
-## Features
+## Características
 
-- Interactive chat interface for mathematical queries
-- Real-time responses with detailed explanations
-- Support for various mathematical topics:
-  - Equation solving
-  - Algebraic concepts
-  - Calculus problems
-  - Geometric calculations
-  - Step-by-step solutions
-  - Theorem explanations
+- Interfaz de chat interactiva para consultas matemáticas
+- Respuestas en tiempo real con explicaciones detalladas
+- Soporte para varios temas matemáticos:
+- Resolución de ecuaciones
+- Conceptos algebraicos
+- Problemas de cálculo
+- Cálculos geométricos
+- Soluciones paso a paso
+- Explicaciones de teoremas
 
-## Tech Stack
+## Tecnologías
 
 - Frontend: React + Vite
 - Backend: Node.js
-- AI Integration: OpenAI API
+- Integración de IA: OpenAI API
 
 ## Project Structure
 
@@ -32,53 +32,49 @@ MathSolver AI is an interactive web application that serves as your personal mat
 └── .env              # Environment variables (not tracked in git)
 ```
 
-## Setup Instructions
+## Instrucciones de instalación
 
-1. Clone the repository:
+1. Clonar el repositorio:
    ```bash
    git clone [repository-url]
    cd mathsolver-ai
    ```
 
-2. Install backend dependencies:
+2. Instalar dependencias del backend:
    ```bash
    npm install
    ```
 
-3. Install frontend dependencies:
+3. Instalar dependencias del frontend:
    ```bash
    cd frontend
    npm install
    ```
 
-4. Create a `.env` file in the root directory with your OpenAI API key:
+4. Cree un archivo `.env` en el directorio raíz con su clave API de OpenAI:
    ```
    OPENAI_API_KEY=your_api_key_here
    ```
 
-5. Start the backend server:
+5. Iniciar el servidor backend:
    ```bash
    node app.js
    ```
 
-6. Start the frontend development server:
+6. Iniciar el servidor de desarrollo frontend:
    ```bash
    cd frontend
    npm run dev
    ```
 
-7. Open your browser and navigate to `http://localhost:5173`
+7. Abra su navegador y navegue hasta `http://localhost:5173`
 
-## Usage
+## Uso
 
-1. Open the application in your web browser
-2. Type your mathematical question in the input field
-3. Press Enter or click the Send button
-4. Receive detailed explanations and solutions
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
+1. Abra la aplicación en su navegador web
+2. Escriba su pregunta matemática en el campo de entrada
+3. Presione Enter o haga clic en el botón Enviar
+4. Reciba explicaciones y soluciones detalladas
 
 ## License
 
